@@ -21,9 +21,6 @@ impl Storage {
         }
         Err("No file found with hash xxx".into())
     }
-    fn store(&self, data: Vec<u8>) -> Result<(), Box<dyn Error>> {
-        Ok(())
-    }
 }
 
 #[cfg(test)]
